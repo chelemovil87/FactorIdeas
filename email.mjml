@@ -1,0 +1,136 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <!-- Atributos globales -->
+      <mj-all font-family="Arial, sans-serif" />
+      <mj-section padding="0px" />
+      <mj-column padding="0px" />
+      <mj-text color="#333333" line-height="1.5" font-size="14px" />
+    </mj-attributes>
+
+    <!-- Carga la fuente 'Gloria Hallelujah' (para clientes que la soporten) -->
+    <mj-font name="Gloria Hallelujah" href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" />
+
+    <!-- Estilos personalizados -->
+    <mj-style inline="inline">
+      .container-shadow { background-color: #e9e9e95e; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); } .card { background: #ffffff; border-radius: 10px; box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1); padding: 15px;
+      margin-bottom: 15px; } .title-gloria { font-family: 'Gloria Hallelujah', cursive, sans-serif; font-size: 18px; color: #000000; margin: 5px 0; } .subtitle-gloria { font-family: 'Gloria Hallelujah', cursive, sans-serif; font-size: 22px;
+      font-weight: 600; color: #F2F2F2; text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.34); margin: 10px 0 0; } .main-text { margin: 0 0 15px; }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f8f9fa">
+    <!-- Contenedor principal con 'fondo semitransparente' -->
+    <mj-wrapper padding="20px 0" css-class="container-shadow" border-radius="8px">
+      <!-- Sección HERO con imagen de fondo -->
+      <mj-hero mode="fixed-height" height="280px" background-url="https://www.factorideas.com/wp-content/uploads/2021/09/keyboard-616492_1920.jpg" background-position="center">
+        <mj-text padding="70px 10px 10px" font-family="Roboto, sans-serif" color="#F2F2F2" font-size="50px" font-weight="600" align="center"> Factor Ideas </mj-text>
+        <mj-text css-class="subtitle-gloria" align="center"> Proceso de selección - Desarrollador web junior </mj-text>
+      </mj-hero>
+
+      <!-- Sección de contenido principal -->
+      <mj-section padding="20px">
+        <mj-column width="100%">
+          <mj-text css-class="main-text"> Estimados Esteban y Mónica, </mj-text>
+
+          <mj-text css-class="main-text"> Agradezco sinceramente el interés en mi candidatura para el puesto de desarrollo en Factor Ideas. Me ilusiona formar parte de vuestro equipo y contribuir con mis habilidades técnicas. </mj-text>
+
+          <mj-text css-class="main-text"> Os detallo a continuación un poco de mi experiencia para que me conozcan </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- CARD 1 -->
+      <mj-section padding="0px" css-class="card">
+        <mj-column width="15%" padding="0px">
+          <mj-image src="https://img.icons8.com/ios-filled/50/FA7D09/web.png" alt="Desarrollo Web" width="40px" align="center" />
+        </mj-column>
+        <mj-column width="85%" padding="0px">
+          <mj-text css-class="title-gloria"> Desarrollo Web y Maquetación </mj-text>
+          <mj-text font-size="14px" padding="5px 0 0">
+            Tengo experiencia desarrollando aplicaciones en PHP y Laravel, con el front en Angular o Vue. Maquetando con HTML5, CSS3, JavaScript y con alguna libreria como Bootstrap o Tailwind. No tengo experiencia con CodeIngniter, aunque
+            aprendo rápido 😉
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- CARD 2 -->
+      <mj-section padding="0px" css-class="card">
+        <mj-column width="15%" padding="0px">
+          <mj-image src="https://img.icons8.com/ios-filled/50/FA7D09/project.png" alt="Experiencia y Proyectos" width="40px" align="center" />
+        </mj-column>
+        <mj-column width="85%" padding="0px">
+          <mj-text css-class="title-gloria"> Experiencia y Proyectos </mj-text>
+          <mj-text font-size="14px" padding="5px 0 0">
+            En los últimos meses, me he enfocado principalmente en el desarrollo de backend y la automatización de procesos para diversos clientes. Esto ha implicado la integración y comunicación entre diferentes APIs para optimizar tareas
+            y reducir costes, utilizando plataformas como Holded, Factorial, Mews, Sinch, Mapal, entre otras, especialmente en lo relacionado con facturación y recursos humanos.
+          </mj-text>
+          <mj-text font-size="14px" padding="5px 0 0">
+            Tengo varios proyectos en mi repositorio de GitHub, aunque aún no están desplegados. Asimismo, no puedo mostrar gran parte del trabajo que realizo actualmente debido a un acuerdo de confidencialidad (NDA).
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- CARD 3 -->
+      <mj-section padding="0px" css-class="card">
+        <mj-column width="15%" padding="0px">
+          <mj-image src="https://img.icons8.com/ios-filled/50/FA7D09/laptop-coding.png" alt="Herramientas y Tecnologías" width="40px" align="center" />
+        </mj-column>
+        <mj-column width="85%" padding="0px">
+          <mj-text css-class="title-gloria"> Herramientas y Tecnologías </mj-text>
+          <mj-text font-size="14px" padding="5px 0 0"> En cuanto a Docker, GitHub, Bash, los utilizo a diario, ya que me encargo del CI/CD en mis proyectos con Github Actions y scripts. </mj-text>
+          <mj-text font-size="14px" padding="5px 0 0">
+            También estoy cursando un bootcamp de un año de duración, que comenzó en octubre y finalizará en septiembre, en el cual contamos con libros especializados en DevOps, Terraform, AWS, Azure, etc.
+          </mj-text>
+          <mj-text font-size="14px" padding="5px 0 0"> Además, sigo formándome en desarrollo con Laravel, patrones, testing, etc. </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- CARD 4 -->
+      <mj-section padding="0px" css-class="card">
+        <mj-column width="15%" padding="0px">
+          <mj-image src="https://img.icons8.com/ios-filled/50/FA7D09/remote-desktop.png" alt="Trabajo Remoto" width="40px" align="center" />
+        </mj-column>
+        <mj-column width="85%" padding="0px">
+          <mj-text css-class="title-gloria"> Trabajo Remoto </mj-text>
+          <mj-text font-size="14px" padding="5px 0 0">
+            Llevo los últimos 10 meses trabajando full remoto usando la suite de Google para todo (tickets, dailys, chats), aunque anteriormente pasé por Teams con Jira y también la suite completa de Zoho.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Cierre / Despedida -->
+      <mj-section padding="20px">
+        <mj-column>
+          <mj-text css-class="main-text"> Agradezco nuevamente esta oportunidad y espero vuestra respuesta. </mj-text>
+          <mj-text css-class="main-text">
+            Quedo a vuestra disposición para cualquier entrevista o reunión virtual que consideréis necesaria. Podéis contactarme en cualquier momento para coordinar una cita, me gustaría poder seguir conociendo la empresa y vuestra cultura
+            de trabajo.
+          </mj-text>
+          <mj-text css-class="main-text">
+            Un saludo cordial<br />
+            Jose Eduardo
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- Botón de acción -->
+      <mj-section padding="0 0 20px 0">
+        <mj-column width="100%">
+          <mj-button background-color="#F9690E" border-radius="5px" font-size="16px" color="#ffffff" href="mailto:jose_rodriguez_87@outlook.com" padding="12px 30px"> Contactar </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <!-- Footer con Iconos de Contacto -->
+      <mj-section padding="0 0 20px 0">
+        <mj-column>
+          <mj-social font-size="15px" icon-size="40px" mode="horizontal" align="center" color="#F9690E">
+            <mj-social-element name="github" href="https://github.com/chelemovil87" background-color="#FFFFFF"> GitHub </mj-social-element>
+            <mj-social-element name="web" href="https://wa.me/+34617142420" background-color="#FFFFFF"> WhatsApp </mj-social-element>
+            <mj-social-element name="linkedin" href="https://www.linkedin.com/in/jose-eduardo-rodriguez-fernandez/" background-color="#FFFFFF"> LinkedIn </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- Fin del contenedor principal -->
+  </mj-body>
+</mjml>
